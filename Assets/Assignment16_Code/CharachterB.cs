@@ -32,7 +32,7 @@ namespace Assignment16{
             Debug.Log(attackType);
         }
 
-        public void DisplayInfo(){
+        public virtual void DisplayInfo(){
             Debug.Log("Name: "+name+"\nHealth: "+health+"\nPosition: "+position);
         }
     }
