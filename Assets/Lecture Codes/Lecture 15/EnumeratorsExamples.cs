@@ -40,6 +40,10 @@ namespace Lectur15{
                 case CharacterState.Jumping:
                 Debug.Log("Charachter2 is jumping.");
                 break;
+
+                default:
+                Debug.Log("Any other state.");
+                break;
             }
         }
     }
